@@ -24,10 +24,6 @@ timeout_after = input('Timeout after(default=0)>>: ')
 output = input(colored('Give name to out file(defaults=cookies)>>: ', 'magenta'))
 if len(output) == 0:
     output = 'cookies'
-if len(login) == 0:
-    login = 'denismir423@gmail.com'
-if len(password) == 0:
-    password = 'woskxncbru1820'
 if len(timeout_before) == 0:
     timeout_before = 0
 else:
