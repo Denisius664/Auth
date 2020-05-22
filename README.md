@@ -1,11 +1,11 @@
 # Auth
 Can get authorized cookies that are needed for requests to the site on your behalf
 
-# 🌐 Installing 🌐 #
+# 🌐 How to run 🌐 #
 ```
-cd Auth
-pip install -r requirements.txt
-python Main.py
+Follow to project folder
+pip3 install -r requirements.txt
+python3 Main.py
 ```
 
 # For Ubuntu run in terminal
