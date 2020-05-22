@@ -1,0 +1,8 @@
+# Log file
+*.log
+
+# Cookies
+*.pkl
+
+# Folders
+__pycache__
