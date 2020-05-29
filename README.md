@@ -13,7 +13,11 @@ python3 Main.py
 sudo apt install firefox-geckodriver
 ```
 
-# On other systems and Windows 10 download file from https://github.com/mozilla/geckodriver/releases and do that under
+# On other systems and Windows 10 download file from 'https://github.com/mozilla/geckodriver/releases' and do that under
 ```
 change the line 'driver = webdriver.Firefox()' to 'driver = webdriver.Firefox(executable_path="path for geckodriver")'
+```
+# If you have Google Chrome on other systems download file from 'https://chromedriver.chromium.org/downloads' for your version:
+```
+change the line 'driver = webdriver.Firefox()' to 'driver = webdriver.Chrome(executable_path="path for chromedriver")'
 ```
